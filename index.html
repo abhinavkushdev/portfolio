@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abhinav Kushwaha | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="logo" href="#top">Abhinav<span>.</span></a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mobileMenu">Menu</button>
+    </div>
+    <nav class="mobile-menu" id="mobileMenu" aria-label="Mobile navigation">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero container reveal">
+      <div class="hero-content">
+        <p class="tagline">CS Undergrad · Web Developer · Problem Solver</p>
+        <h1>Hi, I'm <span>Abhinav Kushwaha</span></h1>
+        <p>
+          I build clean, responsive interfaces with attention to user experience and performance.
+          I enjoy solving DSA challenges and turning ideas into polished web products.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">View Projects</a>
+          <a class="button secondary" href="#contact">Contact Me</a>
+        </div>
+      </div>
+      <div class="profile-card">
+        <div class="avatar" aria-hidden="true">AK</div>
+        <h2>Abhinav Kushwaha</h2>
+        <p>Focused on modern front-end development and clear UI systems.</p>
+      </div>
+    </section>
+
+    <section class="container section reveal" id="about">
+      <h2>About</h2>
+      <p>
+        I'm a computer science undergraduate passionate about web development, data structures and
+        algorithms, and building interfaces that feel intuitive and elegant.
+      </p>
+    </section>
+
+    <section class="container section reveal" id="projects">
+      <h2>Featured Projects</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <h3>Portfolio Website</h3>
+          <p>A sleek personal site with a dark theme, responsive sections, and modern UX patterns.</p>
+          <a href="#" aria-label="Open Portfolio Website project">View Details</a>
+        </article>
+        <article class="project-card">
+          <h3>DSA Practice Hub</h3>
+          <p>A curated collection of coding problems with categorized notes and efficient solutions.</p>
+          <a href="#" aria-label="Open DSA Practice Hub project">View Details</a>
+        </article>
+        <article class="project-card">
+          <h3>Task Tracker App</h3>
+          <p>A lightweight productivity app with clean task workflows and intuitive interactions.</p>
+          <a href="#" aria-label="Open Task Tracker App project">View Details</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="container section reveal" id="contact">
+      <h2>Let's Connect</h2>
+      <div class="contact-actions">
+        <a class="button primary" href="mailto:abhinav@example.com">Email</a>
+        <a class="button secondary" href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a class="button secondary" href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Abhinav Kushwaha. All rights reserved.</p>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
